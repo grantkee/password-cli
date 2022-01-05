@@ -3,7 +3,7 @@ use structopt::StructOpt;
 
 #[derive(StructOpt, Debug)]
 struct Options {
-    #[structopt(default_value="2")]
+    #[structopt(default_value="1")]
     word_count: usize,
     #[structopt(long, short)]
     with_hyphens: bool,
